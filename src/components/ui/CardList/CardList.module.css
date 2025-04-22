@@ -1,0 +1,48 @@
+.containerCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+  
+  .containerCard h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+    color: #333333;
+  }
+  
+  .containerCard p {
+    margin: 0.3rem 0;
+    color: #555555;
+    font-size: 0.95rem;
+  }
+  
+  .containerCard b {
+    color: #2C7BE5;
+  }
+  
+  .actionCard {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .actionCard button {
+    background-color: #4A90E2;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .actionCard button:hover {
+    background-color: #2C7BE5;
+  }
+  

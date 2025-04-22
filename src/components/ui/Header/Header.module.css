@@ -1,0 +1,19 @@
+.containerHeader {
+  background-color: #f9f9f9;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.containerTitleHeader {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.containerTitleHeader h2 {
+  font-size: 1.8rem;
+  color: #333333;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
